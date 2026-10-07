@@ -1,5 +1,5 @@
 """LLM humanization rewriter (OpenAI-compatible providers).
-
+ 
 Supports DeepSeek, OpenRouter, and any compatible endpoint via config.
 Carries previous round history for context-aware rewriting.
 """
