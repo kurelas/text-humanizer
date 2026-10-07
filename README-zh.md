@@ -39,7 +39,7 @@ text-Humanizer 是一个完全免费且开源的项目，旨在通过基于大�
 # 快速开始（Windows / Linux / macOS）
 
 ```bash
-git clone https://github.com/gotoanto/text-humanizer.git
+git clone https://github.com/kurelas/text-humanizer.git
 cd text-humanizer
 pip install -r requirements.txt
 copy .\config\config.example.toml .\config.toml # 创建配置文件
