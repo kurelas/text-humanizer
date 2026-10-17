@@ -6,10 +6,8 @@ import string
 import argparse
 import sys
 from pathlib import Path
-from src.services import humanizer
 
-
-humanizer.run_sync()
+process = subprocess.Popen(["python", "src/services/humanizer.py"])
 
 def _banner() -> Panel:
     return Panel.fit(
