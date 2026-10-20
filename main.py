@@ -7,7 +7,8 @@ import argparse
 import sys
 from pathlib import Path
 
-process = subprocess.Popen(["python", "src/services/humanizer.py"])
+process = subprocess.Popen([sys.executable, "src/services/humanizer.py"])
+process.wait()
 
 def _banner() -> Panel:
     return Panel.fit(
